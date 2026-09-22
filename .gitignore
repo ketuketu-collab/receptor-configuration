@@ -1,0 +1,6 @@
+# generated figures (rebuild with the scripts)
+*.png
+*.pdf
+*.svg
+__pycache__/
+.DS_Store
