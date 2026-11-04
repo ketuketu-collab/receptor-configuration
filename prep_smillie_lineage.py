@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Smillie 2019 (SCP259) LP免疫 54,195細胞から、配置モジュール7遺伝子の系統別平均を取り出す。
+"""[DEPRECATED 2026-09-28] 系統定義が fig1c_smillie_canonical.py と食い違い、
+出力 (fig1c_source.csv) が原稿の値と一致しなかった。正本は fig1c_smillie_canonical.py。
+このファイルは履歴として残すのみ。実行しないこと。
+
+Smillie 2019 (SCP259) LP免疫 54,195細胞から、配置モジュール7遺伝子の系統別平均を取り出す。
 mtx を1パスで流すだけ。結果は CSV にキャッシュ（生データは read-only）。"""
 import gzip, os, sys, numpy as np, pandas as pd
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
